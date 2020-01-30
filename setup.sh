@@ -2,4 +2,4 @@
 
 # Bring up service with Docker
 
-## Insert Java commmand here
+python3 app.py
