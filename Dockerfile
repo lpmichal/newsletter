@@ -1,5 +1,7 @@
 FROM ubuntu
 
-COPY setup.sh setup.sh
+WORKDIR /dev/app
 
-RUN ./setup.sh
+ADD . .
+
+RUN python3 app.py

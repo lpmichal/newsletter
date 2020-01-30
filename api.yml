@@ -1,0 +1,15 @@
+openapi: 3.0.0
+info:
+  title: newsletter api
+  description: outline of the v1 newsletter api
+  version: 1.0.0
+
+paths:
+  /api/v1/register:
+    post:
+      summary: registers a user with the automated news service
+      operationId: controller.register
+      responses:
+        '200':
+          description: User was successfully registered and is able to recieve
+                       emails
